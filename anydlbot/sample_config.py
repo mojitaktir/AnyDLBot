@@ -6,10 +6,10 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1217999322:AAH-C6S9VeoJmUe5aO3HhLIfHUYTCr-aHqU")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = os.environ.get("API_HASH",eb06d4abfb49dc3eeb1aeb98ae0f581e)
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "7351948").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "GetLinkFilesTelegramBot").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
@@ -21,7 +21,7 @@ class Config(object):
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = os.environ.get(
         "DEF_THUMB_NAIL_VID_S",
-        "https://placehold.it/90x90"
+        "https://dfilebot.herokuapp.com/"
     )
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from
