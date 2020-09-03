@@ -21,7 +21,7 @@ class Config(object):
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = os.environ.get(
         "DEF_THUMB_NAIL_VID_S",
-        "https://placehold.it/90x90"
+        "https://convertfiletolink.herokuapp.com/"
     )
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from
